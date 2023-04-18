@@ -49,3 +49,4 @@ class PgConnect:
 if __name__ == '__main__':
     pg = PgConnect('localhost', '5432', 'postgres', 'postgres', pw=None, sslmode='disable')
     a = pg.connection()
+    a.
