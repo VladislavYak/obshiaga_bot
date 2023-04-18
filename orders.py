@@ -20,4 +20,4 @@ class OrdersTable:
 
 if __name__ == '__main__':
     pg = PgConnect('localhost', '5432', 'postgres', 'postgres', pw=None, sslmode='disable')
-    OrdersTable(pg).create_order(0, 1, 'pizda')
+    OrdersTable(pg).create_order(1, 2, 'pizda')
